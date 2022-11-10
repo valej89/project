@@ -14,7 +14,7 @@ function ProductItem(props) {
               <p class="text-muted mb-4">{props.descriptionItem}</p>
             </div>
             <div class="d-flex justify-content-between total font-weight-bold mt-4">
-              <span>Total</span><span>${props.amountItem}</span>
+              <span className="">${props.amountItem}</span><span><img src="./images/add-shopping-cart.png"/></span>
             </div>
           </div>
         </div>
